@@ -5,10 +5,9 @@
   <remote fetch="https://github.com/eclipse-oniro-mirrors" name="oniro" review="https://gitcode.com/openharmony/"/> 
   <remote fetch="https://github.com/eclipse-oniro4openharmony/" name="oniro4openharmony"/>
   <remote fetch="https://github.com" name="github"/>
-  <default remote="oniro" revision="main" sync-j="4"/>
 
-  <project name="device_board_yanlink" path="device/board/yanlink" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" remote="oniro4openharmony"/>
-  <project name="device_soc_yanlink" path="device/soc/yanlink" groups="default,ohos:standard,ohos:chipset" remote="oniro4openharmony"/>
-  <project name="vendor_yanlink" path="vendor/yanlink" groups="default,ohos:mini,ohos:standard,ohos:chipset" remote="oniro4openharmony"/>
+    <project name="device_board_yanlink" path="device/board/yanlink" groups="default,ohos:mini,ohos:small,ohos:standard,ohos:chipset" remote="oniro4openharmony" revision="main"/>
+  <project name="device_soc_yanlink" path="device/soc/yanlink" groups="default,ohos:standard,ohos:chipset" remote="oniro4openharmony" revision="main"/>
+  <project name="vendor_yanlink" path="vendor/yanlink" groups="default,ohos:mini,ohos:standard,ohos:chipset" remote="oniro4openharmony" revision="main"/>
 
 </manifest>
